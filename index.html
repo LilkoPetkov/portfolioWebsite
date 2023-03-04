@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <nav>
+                <ul class="icon-list">
+                    <li><a href="https://github.com/JaschaHaifetz" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square" target="_blank"></i></a></li>
+                    <li><a href="lpetkov#8123" target="_blank"><i class="fab fa-discord"></i></a></li>
+                </ul>
+                <ul class="nav-container">
+                    <li id="home"><a href="#">HOME</a></li>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#cert">CERTIFICATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div class="container">
+                <div class="text-head">
+                    <h1>Hi, I'm Lilko!</h1>
+                    <p class="par1">I am a Bulgarian software engineer located in Plovdiv. I've worked as a customer service, data analyst and technical support, though
+                        I always loved technology and always wanted to know how things work behind the scenes, each website, each online video or image,
+                        how does it load? Where it comes from? This is why I enrolled in a few online courses to see if I could manage to learn to write code.
+                        This is how my jorney began.     
+                    </p>
+
+                </div>
+                <img class="photo" src="images/photo.jpeg" alt="Personal Photo">
+
+                <div class="hobbies">
+                    <h2>My Hobbies</h2>
+
+                    <p>
+                        My hobbies have not changed since I was little actually. I love sports, boxing and basketball being my favourites,
+                        I love reading books, whenever I got the time, playing video games or working on my own (small but important for me projects).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="breaking-line">
+
+        <article  id="about-me">
+            <section class="about-me">
+                <img class="static-image" src="images/python_img.jpeg" alt="Python Image Static">
+
+                <div class="container-2">
+                    <div class="head-text2">
+                        <h2 class="about-head">About me</h2>
+
+                        <p>Currently I am working in a hosting company as mainly technical support. In my day-to-day work I am mostly working with python for task automatisation and scripting. Working at a hosting company gave me quite a 
+                            lot of experience with Linux, SSH, mySQL and more. I got very familiar with PHP based applications like WordPress, Magento, Drupal and many more. Python<i class="fab fa-python"></i> is my first language, I love working with Flask 
+                            both for Rest and Templating projects, though I have some small projects with FastAPI as well. I also have knowledge of HTML5<i class="fab fa-html5"></i>, CSS<i class="fab fa-css3-alt"></i> and JavaScript<i class="fab fa-js-square"></i>. 
+                        </p>
+                    </div>
+            </div>
+            </section>
+    </article>
+
+        <hr class="breaking-line">
+
+        <section class="certification" id="cert">
+            <h2>Certification</h2>
+            <div class="container3">
+                <img src="images/basiscs.jpeg" alt="Certificate from basics">
+                <img src="images/fundamentals.jpeg" alt="Certificate from fundamentals">
+                <img src="images/advanced.jpeg" alt="Certificate from advanced">
+                <img src="images/oop.jpeg" alt="Certificate from OOP">
+            </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="form-container">
+                <h2 class="contact-text2">Contact</h2>
+                <form action="contactform.php"  method="post">
+                  <label for="fname">First and last name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="First and last name">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Email">
+              
+                  <label for="Company">Company</label>
+                  <input type="text" id="cname" name="cname" placeholder="Comany name">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+              
+                  <input class="input-btn" type="submit" value="Submit">
+                </form>
+              </div>
+        </section>
+    </main>
+</body>
+</html>
